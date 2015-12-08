@@ -41,7 +41,7 @@ set(CATCH_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdParty/catch)
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${CATCH_DIR}
   GIT_REPOSITORY "https://github.com/philsquared/Catch.git"
-  GIT_TAG origin/master
+  GIT_TAG d758428fe297655e558a86cc6a013fcb1bcc8c7d
   USE_CACHING TRUE
   )
 
